@@ -140,7 +140,9 @@ extension KrustyKrabViewController: UITableViewDataSource {
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             
-            cell.textLabel?.text = pizzas[indexPath.row].toppings.first!
+            cell.textLabel?.text = pizzas[indexPath.row].toppings.joined(separator: "\n")
+            cell.textLabel?.numberOfLines = 0
+            cell.imageView?.image = nil
             
             return cell
         }
@@ -148,5 +150,17 @@ extension KrustyKrabViewController: UITableViewDataSource {
     
 }
 
-extension KrustyKrabViewController: UITableViewDelegate { }
+extension KrustyKrabViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // when I select a pizza
+        // display a new VC
+        // with labels displaying
+        // the toppings
+        
+        // if the toppings include pepperoni, also display a custom image
+        // otherwise, just show the labels
+    }
+    
+}
 
