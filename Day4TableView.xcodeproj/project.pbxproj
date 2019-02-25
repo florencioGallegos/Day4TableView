@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		3F5827F12224340800D4FA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5827F02224340800D4FA92 /* AppDelegate.swift */; };
-		3F5827F32224340800D4FA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5827F22224340800D4FA92 /* ViewController.swift */; };
+		3F5827F32224340800D4FA92 /* KrustyKrabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5827F22224340800D4FA92 /* KrustyKrabViewController.swift */; };
 		3F5827F62224340800D4FA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5827F42224340800D4FA92 /* Main.storyboard */; };
 		3F5827F82224340A00D4FA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5827F72224340A00D4FA92 /* Assets.xcassets */; };
 		3F5827FB2224340A00D4FA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5827F92224340A00D4FA92 /* LaunchScreen.storyboard */; };
+		3F58280422243E9000D4FA92 /* mrkrabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58280322243E9000D4FA92 /* mrkrabs.png */; };
+		3F58280622243E9600D4FA92 /* patrick.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58280522243E9600D4FA92 /* patrick.png */; };
+		3F58280822243E9900D4FA92 /* plankton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F58280722243E9900D4FA92 /* plankton.jpg */; };
+		3F58280A22243E9C00D4FA92 /* sandy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F58280922243E9C00D4FA92 /* sandy.jpeg */; };
+		3F58280C22243E9F00D4FA92 /* sponebob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F58280B22243E9F00D4FA92 /* sponebob.jpg */; };
+		3F58280F222440AC00D4FA92 /* BikiniBottomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58280D222440AC00D4FA92 /* BikiniBottomerTableViewCell.swift */; };
+		3F582810222440AC00D4FA92 /* BikiniBottomerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58280E222440AC00D4FA92 /* BikiniBottomerTableViewCell.xib */; };
+		3F58281322244C4100D4FA92 /* pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F58281222244C4100D4FA92 /* pizzas.json */; };
+		3F58281522244DD900D4FA92 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58281422244DD900D4FA92 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F5827ED2224340800D4FA92 /* Day4TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day4TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5827F02224340800D4FA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F5827F22224340800D4FA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F5827F22224340800D4FA92 /* KrustyKrabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrustyKrabViewController.swift; sourceTree = "<group>"; };
 		3F5827F52224340800D4FA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F5827F72224340A00D4FA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F5827FA2224340A00D4FA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F5827FC2224340A00D4FA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F58280322243E9000D4FA92 /* mrkrabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mrkrabs.png; sourceTree = "<group>"; };
+		3F58280522243E9600D4FA92 /* patrick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patrick.png; sourceTree = "<group>"; };
+		3F58280722243E9900D4FA92 /* plankton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plankton.jpg; sourceTree = "<group>"; };
+		3F58280922243E9C00D4FA92 /* sandy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sandy.jpeg; sourceTree = "<group>"; };
+		3F58280B22243E9F00D4FA92 /* sponebob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sponebob.jpg; sourceTree = "<group>"; };
+		3F58280D222440AC00D4FA92 /* BikiniBottomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikiniBottomerTableViewCell.swift; sourceTree = "<group>"; };
+		3F58280E222440AC00D4FA92 /* BikiniBottomerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BikiniBottomerTableViewCell.xib; sourceTree = "<group>"; };
+		3F58281222244C4100D4FA92 /* pizzas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizzas.json; sourceTree = "<group>"; };
+		3F58281422244DD900D4FA92 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,47 @@
 		3F5827EF2224340800D4FA92 /* Day4TableView */ = {
 			isa = PBXGroup;
 			children = (
+				3F58281622244E0600D4FA92 /* Model */,
+				3F58281122244C1100D4FA92 /* JSON */,
+				3F58280222243E8100D4FA92 /* Pictures */,
 				3F5827F02224340800D4FA92 /* AppDelegate.swift */,
-				3F5827F22224340800D4FA92 /* ViewController.swift */,
+				3F5827F22224340800D4FA92 /* KrustyKrabViewController.swift */,
 				3F5827F42224340800D4FA92 /* Main.storyboard */,
 				3F5827F72224340A00D4FA92 /* Assets.xcassets */,
 				3F5827F92224340A00D4FA92 /* LaunchScreen.storyboard */,
 				3F5827FC2224340A00D4FA92 /* Info.plist */,
+				3F58280D222440AC00D4FA92 /* BikiniBottomerTableViewCell.swift */,
+				3F58280E222440AC00D4FA92 /* BikiniBottomerTableViewCell.xib */,
 			);
 			path = Day4TableView;
+			sourceTree = "<group>";
+		};
+		3F58280222243E8100D4FA92 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				3F58280B22243E9F00D4FA92 /* sponebob.jpg */,
+				3F58280922243E9C00D4FA92 /* sandy.jpeg */,
+				3F58280722243E9900D4FA92 /* plankton.jpg */,
+				3F58280522243E9600D4FA92 /* patrick.png */,
+				3F58280322243E9000D4FA92 /* mrkrabs.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		3F58281122244C1100D4FA92 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3F58281222244C4100D4FA92 /* pizzas.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		3F58281622244E0600D4FA92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F58281422244DD900D4FA92 /* Pizza.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +173,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F58280422243E9000D4FA92 /* mrkrabs.png in Resources */,
 				3F5827FB2224340A00D4FA92 /* LaunchScreen.storyboard in Resources */,
+				3F58280A22243E9C00D4FA92 /* sandy.jpeg in Resources */,
+				3F58280C22243E9F00D4FA92 /* sponebob.jpg in Resources */,
+				3F58280822243E9900D4FA92 /* plankton.jpg in Resources */,
 				3F5827F82224340A00D4FA92 /* Assets.xcassets in Resources */,
+				3F58281322244C4100D4FA92 /* pizzas.json in Resources */,
 				3F5827F62224340800D4FA92 /* Main.storyboard in Resources */,
+				3F58280622243E9600D4FA92 /* patrick.png in Resources */,
+				3F582810222440AC00D4FA92 /* BikiniBottomerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5827F32224340800D4FA92 /* ViewController.swift in Sources */,
+				3F58281522244DD900D4FA92 /* Pizza.swift in Sources */,
+				3F5827F32224340800D4FA92 /* KrustyKrabViewController.swift in Sources */,
+				3F58280F222440AC00D4FA92 /* BikiniBottomerTableViewCell.swift in Sources */,
 				3F5827F12224340800D4FA92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
